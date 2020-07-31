@@ -1,9 +1,11 @@
 ### Hi there 👋
+[![Newdee's github stats](https://github-readme-stats.vercel.app/api?username=newdee&count_private=true&show_icons=true&theme=dracula)](https://github.com/newdee/github-readme-stats)  
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=newdee&repo=newdee.github.io&show_owner=true&theme=dracula)](https://github.com/newdee/newdee.github.io)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=newdee&repo=Leetcode&show_owner=true&theme=dracula)](https://github.com/newdee/Leetcode)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=newdee&repo=chinese-independent-blogs&show_owner=true&theme=dracula)](https://github.com/newdee/chinese-independent-blogs)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=newdee&repo=BlogComments&show_owner=true&theme=dracula)](https://github.com/newdee/BlogComments)
-[![Newdee's github stats](https://github-readme-stats.vercel.app/api?username=newdee&count_private=true&show_icons=true&theme=dracula)](https://github.com/newdee/github-readme-stats)
+
+
 博客主页 : [阁子](https://newdee.cf)
 
 <!--
