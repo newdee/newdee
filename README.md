@@ -1,7 +1,7 @@
 ### Hi there 👋
 [![Newdee's github stats](https://github-readme-stats.vercel.app/api?username=newdee&count_private=true&show_icons=true&theme=dracula)](https://dfine.tech)
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=newdee&repo=git-commit-helper&show_owner=true&theme=dracula&cache_seconds=2)](https://github.com/newdee/git-commit-helper)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=newdee&repo=git-commit-helper&show_owner=true&theme=dracula&cache_seconds=3)](https://github.com/newdee/git-commit-helper)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=newdee&repo=typeric&show_owner=true&theme=dracula&cache_seconds=0)](https://github.com/newdee/typeric)
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=newdee&repo=newdee.github.io&show_owner=true&theme=dracula)](https://github.com/newdee/newdee.github.io)
