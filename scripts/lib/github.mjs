@@ -139,6 +139,10 @@ export async function fetchLanguageMix(login, repos, token, sampleSize = 60) {
 
     const entries = Object.entries(bytes).map(([name, size]) => [name, Number(size) || 0])
     const repoTotal = entries.reduce((sum, [, size]) => sum + size, 0)
+    // Repos GitHub reports no bytes for — empty, or nothing but assets — carry
+    // no signal and are left out of the sample count shown on the card. This is
+    // a property of the repo, not a transient failure, so it stays stable
+    // across runs.
     if (repoTotal <= 0) continue
     sampled++
 
