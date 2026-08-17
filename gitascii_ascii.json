@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "githubId": 12610440,
+  "username": "newdee",
+  "profileSlug": "ascii",
+  "profileName": "Full ASCII",
+  "templateId": "hackerspace",
+  "widgets": [
+    {
+      "instanceId": "as_header_1",
+      "widgetId": "header",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 800, "height": 90 },
+      "config": { "textColor": "#c9d1d9", "accentColor": "#39d353" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1
+    },
+    {
+      "instanceId": "as_portrait_2",
+      "widgetId": "asciiprofile-portrait",
+      "position": { "x": 0, "y": 106 },
+      "size": { "width": 370, "height": 400 },
+      "config": {
+        "cols": 100,
+        "customTitle": "newdee@github: ~$ ./portrait.sh",
+        "accentColor": "#39d353"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "instanceId": "as_info_3",
+      "widgetId": "asciiprofile-info",
+      "position": { "x": 386, "y": 106 },
+      "size": { "width": 414, "height": 400 },
+      "config": { "accentColor": "#39d353" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 3
+    },
+    {
+      "instanceId": "as_heatmap_4",
+      "widgetId": "asciiprofile-heatmap",
+      "position": { "x": 0, "y": 522 },
+      "size": { "width": 800, "height": 240 },
+      "config": { "accentColor": "#39d353" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4
+    },
+    {
+      "instanceId": "as_langs_5",
+      "widgetId": "languages",
+      "position": { "x": 0, "y": 778 },
+      "size": { "width": 800, "height": 140 },
+      "config": { "accentColor": "#39d353", "textColor": "#c9d1d9" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    },
+    {
+      "instanceId": "as_footer_6",
+      "widgetId": "footer",
+      "position": { "x": 0, "y": 934 },
+      "size": { "width": 800, "height": 50 },
+      "config": { "accentColor": "#39d353" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 6
+    }
+  ],
+  "globalStyles": {
+    "backgroundColor": "#0d1117",
+    "textColor": "#c9d1d9",
+    "accentColor": "#39d353",
+    "borderColor": "#30363d",
+    "fontFamily": "'JetBrains Mono', monospace",
+    "borderRadius": 6,
+    "padding": 24,
+    "themeMode": "dark",
+    "templateStyle": "githubdark"
+  },
+  "metadata": {
+    "createdAt": "2026-08-17T00:00:00.000Z",
+    "updatedAt": "2026-08-17T00:00:00.000Z",
+    "schemaVersion": 1,
+    "generatedBy": "manual"
+  }
+}

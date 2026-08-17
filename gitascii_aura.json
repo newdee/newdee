@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "githubId": 12610440,
+  "username": "newdee",
+  "profileSlug": "aura",
+  "profileName": "Aura Glow",
+  "templateId": "synthwave",
+  "widgets": [
+    {
+      "instanceId": "au_orbit_1",
+      "widgetId": "codeweb-hero-orbit",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 800, "height": 360 },
+      "config": { "accentColor": "#8b5cf6" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1
+    },
+    {
+      "instanceId": "au_badge_2",
+      "widgetId": "codeweb-social-badge",
+      "position": { "x": 0, "y": 376 },
+      "size": { "width": 800, "height": 44 },
+      "config": { "accentColor": "#8b5cf6", "platforms": ["github", "website"] },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "instanceId": "au_grid_3",
+      "widgetId": "codeweb-retro-grid",
+      "position": { "x": 0, "y": 436 },
+      "size": { "width": 800, "height": 260 },
+      "config": {
+        "title": "Tech Stack",
+        "displayMode": "both",
+        "selectedTechs": ["rust", "ts", "py", "cpp", "lua", "nodejs", "docker", "linux"],
+        "accentColor": "#8b5cf6"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 3
+    },
+    {
+      "instanceId": "au_cards_4",
+      "widgetId": "codeweb-showcase-cards",
+      "position": { "x": 0, "y": 712 },
+      "size": { "width": 800, "height": 220 },
+      "config": { "accentColor": "#8b5cf6" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4
+    },
+    {
+      "instanceId": "au_stats_5",
+      "widgetId": "stats",
+      "position": { "x": 0, "y": 948 },
+      "size": { "width": 800, "height": 115 },
+      "config": { "accentColor": "#8b5cf6", "textColor": "#e8e8f0" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    },
+    {
+      "instanceId": "au_footer_6",
+      "widgetId": "footer",
+      "position": { "x": 0, "y": 1079 },
+      "size": { "width": 800, "height": 50 },
+      "config": { "accentColor": "#8b5cf6" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 6
+    }
+  ],
+  "globalStyles": {
+    "backgroundColor": "#05050a",
+    "textColor": "#e8e8f0",
+    "accentColor": "#8b5cf6",
+    "borderColor": "#1e1b3a",
+    "fontFamily": "'Inter Tight', sans-serif",
+    "borderRadius": 12,
+    "padding": 24,
+    "themeMode": "dark",
+    "templateStyle": "synthwave"
+  },
+  "metadata": {
+    "createdAt": "2026-08-17T00:00:00.000Z",
+    "updatedAt": "2026-08-17T00:00:00.000Z",
+    "schemaVersion": 1,
+    "generatedBy": "manual"
+  }
+}

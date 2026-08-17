@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "githubId": 12610440,
+  "username": "newdee",
+  "profileSlug": "control",
+  "profileName": "Control Plane",
+  "templateId": "githubdark",
+  "widgets": [
+    {
+      "instanceId": "cp_header_1",
+      "widgetId": "header",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 800, "height": 90 },
+      "config": { "textColor": "#e8eaed", "accentColor": "#ff6b35" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1
+    },
+    {
+      "instanceId": "cp_deck_2",
+      "widgetId": "controlplane-command-deck",
+      "position": { "x": 0, "y": 106 },
+      "size": { "width": 800, "height": 300 },
+      "config": { "accentColor": "#ff6b35" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "instanceId": "cp_metro_3",
+      "widgetId": "controlplane-metro",
+      "position": { "x": 0, "y": 422 },
+      "size": { "width": 800, "height": 350 },
+      "config": { "accentColor": "#ff6b35" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 3
+    },
+    {
+      "instanceId": "cp_editorial_4",
+      "widgetId": "controlplane-editorial",
+      "position": { "x": 0, "y": 788 },
+      "size": { "width": 800, "height": 330 },
+      "config": { "accentColor": "#ff6b35" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4
+    },
+    {
+      "instanceId": "cp_blueprint_5",
+      "widgetId": "controlplane-blueprint",
+      "position": { "x": 0, "y": 1134 },
+      "size": { "width": 800, "height": 330 },
+      "config": { "accentColor": "#ff6b35" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    },
+    {
+      "instanceId": "cp_footer_6",
+      "widgetId": "footer",
+      "position": { "x": 0, "y": 1480 },
+      "size": { "width": 800, "height": 50 },
+      "config": { "accentColor": "#ff6b35" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 6
+    }
+  ],
+  "globalStyles": {
+    "backgroundColor": "#0b0d10",
+    "textColor": "#e8eaed",
+    "accentColor": "#ff6b35",
+    "borderColor": "#22262c",
+    "fontFamily": "'Inter Tight', sans-serif",
+    "borderRadius": 4,
+    "padding": 24,
+    "themeMode": "dark",
+    "templateStyle": "githubdark"
+  },
+  "metadata": {
+    "createdAt": "2026-08-17T00:00:00.000Z",
+    "updatedAt": "2026-08-17T00:00:00.000Z",
+    "schemaVersion": 1,
+    "generatedBy": "manual"
+  }
+}
