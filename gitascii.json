@@ -99,7 +99,7 @@
         "repoViewMode": "grid",
         "maxRepos": 4,
         "showRepoLanguage": true,
-        "selectedRepos": ["git-commit-helper", "prompt-shelf", "typeric", "newdee.github.io"]
+        "selectedRepos": ["prompt-shelf", "typeric", "skill-shelf", "newdee.github.io"]
       },
       "locked": false,
       "visible": true,
