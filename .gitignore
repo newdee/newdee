@@ -1,0 +1,5 @@
+# Build input snapshot. Regenerated on every run and noisy in diffs, since it
+# tracks fields the card never renders.
+assets/data.json
+
+node_modules/

@@ -1,0 +1,50 @@
+name: profile card
+
+on:
+  schedule:
+    # Once a day. The card only changes when the underlying data does, so a
+    # quiet day produces no commit.
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/profile.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-card
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Build profile card
+        env:
+          # Only raises the REST rate limit; every source the build reads is
+          # public. Commits are authored by github-actions[bot], so refreshing
+          # the card never inflates the contribution graph the card displays.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/build.mjs newdee
+
+      - name: Commit if the card changed
+        run: |
+          if [ -z "$(git status --porcelain -- assets)" ]; then
+            echo "card unchanged, nothing to commit"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets
+          git commit -m 'chore: refresh profile card'
+          git push
