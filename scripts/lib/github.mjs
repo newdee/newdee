@@ -64,6 +64,7 @@ export async function fetchUser(login, token) {
     login: u.login,
     name: u.name || u.login,
     bio: u.bio || '',
+    company: (u.company || '').replace(/^@/, ''),
     location: u.location || '',
     blog: u.blog || '',
     followers: u.followers || 0,

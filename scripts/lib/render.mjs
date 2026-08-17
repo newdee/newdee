@@ -131,7 +131,12 @@ export function renderSvg(data, themeId) {
   // ── whoami ────────────────────────────────────────────────────────────────
   typed([['$', 'prompt'], ['whoami', 'text']], 0.15)
 
-  const identity = [user.name, user.location, user.blog.replace(/^https?:\/\//, '')]
+  const identity = [
+    user.name,
+    user.company,
+    user.location,
+    user.blog.replace(/^https?:\/\//, ''),
+  ]
     .filter(Boolean)
     .join('  ·  ')
   out.push(`<g>${fadeIn(0.55)}${text(PAD, y, esc(identity), { fill: t.text })}</g>`)
