@@ -1,3 +1,13 @@
+<a href="https://gitascii.com">
+  <img
+    src="https://gitascii.com/api/newdee?v=1"
+    alt="GitAscii Widget"
+    width="100%"
+  />
+</a>
+
+---
+
 ### Hi there 👋
 [![Newdee's github stats](https://github-readme-stats.vercel.app/api?username=newdee&count_private=true&show_icons=true&theme=dracula)](https://dfine.tech)
 

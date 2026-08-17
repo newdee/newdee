@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "githubId": 12610440,
+  "username": "newdee",
+  "profileSlug": "default",
+  "profileName": "Terminal Hacker",
+  "templateId": "hackerspace",
+  "widgets": [
+    {
+      "instanceId": "wg_header_1",
+      "widgetId": "header",
+      "name": "Header",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 800, "height": 90 },
+      "config": {
+        "textColor": "#d7ffe0",
+        "accentColor": "#00ff41"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1
+    },
+    {
+      "instanceId": "wg_asciitext_2",
+      "widgetId": "ascii-text",
+      "name": "Ascii Banner",
+      "position": { "x": 0, "y": 106 },
+      "size": { "width": 800, "height": 120 },
+      "config": {
+        "customText": "NEWDEE",
+        "asciiFont": "block",
+        "charSpacing": 1,
+        "fontSize": 16,
+        "accentColor": "#00ff41"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "instanceId": "wg_terminfo_3",
+      "widgetId": "terminal-info",
+      "name": "Neofetch",
+      "position": { "x": 0, "y": 242 },
+      "size": { "width": 800, "height": 280 },
+      "config": {
+        "customTitle": "newdee@github",
+        "customStatsTitle": "System Stats",
+        "dotLeaders": true,
+        "headerColor": "#00ff41",
+        "labelColor": "#8bffa8",
+        "valueColor": "#d7ffe0",
+        "statsValColor": "#00ff41",
+        "dotColor": "#1f4a2a",
+        "dividerColor": "#1f4a2a",
+        "showUptime": true,
+        "showLocation": true,
+        "showLanguages": true,
+        "showJoined": true,
+        "showStatus": true,
+        "customStatus": "compiling something at 2am",
+        "showTimezone": true,
+        "customTimezone": "Asia/Shanghai (UTC+8)",
+        "showWebsite": true,
+        "showGithub": true,
+        "showRepos": true,
+        "showStars": true,
+        "showFollowers": true,
+        "showFollowing": true,
+        "showGists": true,
+        "showCommits": false
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 3
+    },
+    {
+      "instanceId": "wg_langs_4",
+      "widgetId": "languages",
+      "name": "Top Languages",
+      "position": { "x": 0, "y": 538 },
+      "size": { "width": 800, "height": 140 },
+      "config": {
+        "accentColor": "#00ff41",
+        "textColor": "#d7ffe0"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4
+    },
+    {
+      "instanceId": "wg_repos_5",
+      "widgetId": "repositories",
+      "name": "Featured Repos",
+      "position": { "x": 0, "y": 694 },
+      "size": { "width": 800, "height": 260 },
+      "config": {
+        "accentColor": "#00ff41",
+        "repoViewMode": "grid",
+        "maxRepos": 4,
+        "showRepoLanguage": true,
+        "selectedRepos": ["git-commit-helper", "prompt-shelf", "typeric", "newdee.github.io"]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    },
+    {
+      "instanceId": "wg_divider_6",
+      "widgetId": "divider",
+      "name": "Divider",
+      "position": { "x": 0, "y": 970 },
+      "size": { "width": 800, "height": 24 },
+      "config": { "accentColor": "#00ff41" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 6
+    },
+    {
+      "instanceId": "wg_quote_7",
+      "widgetId": "readme-quotes",
+      "name": "Developer Quote",
+      "position": { "x": 0, "y": 1010 },
+      "size": { "width": 800, "height": 140 },
+      "config": {
+        "quoteType": "random",
+        "layout": "horizontal",
+        "theme": "dark",
+        "showTitle": true,
+        "customTitle": "[ DEVELOPER QUOTE ]",
+        "accentColor": "#00ff41"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 7
+    },
+    {
+      "instanceId": "wg_footer_8",
+      "widgetId": "footer",
+      "name": "Footer",
+      "position": { "x": 0, "y": 1166 },
+      "size": { "width": 800, "height": 50 },
+      "config": { "accentColor": "#00ff41" },
+      "locked": false,
+      "visible": true,
+      "zIndex": 8
+    }
+  ],
+  "globalStyles": {
+    "backgroundColor": "#0a0f0a",
+    "textColor": "#00ff41",
+    "accentColor": "#00ff41",
+    "borderColor": "#1a3a1a",
+    "fontFamily": "'JetBrains Mono', monospace",
+    "borderRadius": 0,
+    "padding": 24,
+    "themeMode": "dark",
+    "templateStyle": "terminal"
+  },
+  "metadata": {
+    "createdAt": "2026-08-17T00:00:00.000Z",
+    "updatedAt": "2026-08-17T00:00:00.000Z",
+    "schemaVersion": 1,
+    "generatedBy": "manual"
+  }
+}
