@@ -46,7 +46,18 @@
       "widgetId": "codeweb-showcase-cards",
       "position": { "x": 0, "y": 712 },
       "size": { "width": 800, "height": 220 },
-      "config": { "accentColor": "#8b5cf6" },
+      "config": {
+        "accentColor": "#8b5cf6",
+        "aboutTag": "about",
+        "titleLine1": "Rust, TypeScript,",
+        "titleLine2": "and things that ship.",
+        "terminalText": "> open to collaborations",
+        "card1Text": "prompt-shelf",
+        "card2Text": "git-commit-helper",
+        "leftGifUrl": "https://avatars.githubusercontent.com/u/12610440?s=400",
+        "card1GifUrl": "https://avatars.githubusercontent.com/u/12610440?s=200",
+        "card2GifUrl": "https://avatars.githubusercontent.com/u/12610440?s=200"
+      },
       "locked": false,
       "visible": true,
       "zIndex": 4
